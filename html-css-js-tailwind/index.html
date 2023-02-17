@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css">
+</head>
+<body class="bg-gray-100">
+<div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+    <div class="md:flex">
+        <div class="w-full px-4 py-6">
+            <h1 class="text-2xl font-bold mb-3">Todo List</h1>
+            <form id="todo-form">
+                <input type="text" class="border border-gray-300 p-2 w-full mb-3" placeholder="Enter task...">
+                <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-400">Add Task</button>
+            </form>
+            <ul id="todo-list" class="list-disc pl-5">
+            </ul>
+        </div>
+    </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
